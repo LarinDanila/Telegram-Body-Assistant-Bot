@@ -21,4 +21,4 @@
 
 Подробнее о том, как устроен код: -> [Bot_Version_1.md](https://github.com/LarinDanila/Telegram-Body-Assistant-Bot/blob/main/Bot_V1.md)
 
-Исходный код: -> 
+Исходный код: -> [Bot_Version_1.py](https://github.com/LarinDanila)
