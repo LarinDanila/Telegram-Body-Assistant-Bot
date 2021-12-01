@@ -68,10 +68,6 @@ def createworkout(update, context):
 def startworkout(update, context):
     if len(context.user_data['program']) == 0 or context.user_data['task_time'] == 0 or context.user_data['relax_time'] == 0 or context.user_data['number_of_circles'] == 0:
         update.message.reply_text('Сохраненная тренировка не найдена')
-        update.message.reply_text(f'{len(context.user_data["program"])} '
-                                  f'{context.user_data["task_time"]} '
-                                  f'{context.user_data["relax_time"]} '
-                                  f'{context.user_data["number_of_circles"]}')
     else:
         training_process(update, context)
 
