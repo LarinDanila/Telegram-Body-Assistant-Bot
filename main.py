@@ -1,12 +1,9 @@
 from telegram import Update, Audio, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackQueryHandler, ConversationHandler
-import time
-import random
 from gtts import gTTS
 import os
 import pandas as pd
 from pydub import AudioSegment
-import numpy as np
 
 
 def generate_path(name):
@@ -423,7 +420,7 @@ def set_training(update, context):
   
 
 def main():
-    TOKEN = "2135852047:AAGEWFkoTmPFtqtAqQCJLoGjeZyqa60zplE"
+    TOKEN = "TOKEN"
     updater = Updater(TOKEN, use_context=True)
     dispatcher = updater.dispatcher
 
